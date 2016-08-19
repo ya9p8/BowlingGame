@@ -13,6 +13,7 @@
 		DBAB36A81D6649A700185618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBAB36A71D6649A700185618 /* Assets.xcassets */; };
 		DBAB36AB1D6649A700185618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBAB36A91D6649A700185618 /* LaunchScreen.storyboard */; };
 		DBAB36B61D6649A700185618 /* BowlingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAB36B51D6649A700185618 /* BowlingGameTests.swift */; };
+		DBAB36C11D664A0000185618 /* BowlingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAB36C01D664A0000185618 /* BowlingGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		DBAB36B11D6649A700185618 /* BowlingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowlingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBAB36B51D6649A700185618 /* BowlingGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingGameTests.swift; sourceTree = "<group>"; };
 		DBAB36B71D6649A700185618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBAB36C01D664A0000185618 /* BowlingGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BowlingGame.swift; path = BowlingGame/BowlingGame.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				DBAB36A01D6649A700185618 /* AppDelegate.swift */,
 				DBAB36A21D6649A700185618 /* ViewController.swift */,
+				DBAB36C01D664A0000185618 /* BowlingGame.swift */,
 				DBAB36A41D6649A700185618 /* Main.storyboard */,
 				DBAB36A71D6649A700185618 /* Assets.xcassets */,
 				DBAB36A91D6649A700185618 /* LaunchScreen.storyboard */,
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBAB36C11D664A0000185618 /* BowlingGame.swift in Sources */,
 				DBAB36B61D6649A700185618 /* BowlingGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
